@@ -57,10 +57,10 @@
             padding: 0;
             align-items: center;
             justify-content: center;
-            
+            border-bottom: 1px solid black;
           }
                 #txtFord{
-                 font-family: 'Racing Sans One', cursive;
+                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 8.0rem;
                 color: #ffffff;
                  }
@@ -85,7 +85,7 @@
                 .btnSaibaMais{ 
                         text-align: center;
                         font-size: 2.8rem;
-                        background-color: rgba(255, 255, 255, 0.5);
+                        background: transparent;
                         width: 300px;
                         height: 70px;
                         border-radius: 20px;
@@ -93,11 +93,12 @@
                 }
                 .btnSaibaMais:hover{
                           transform: scale(1.1);
+                          transition: 1s;
                 }
                 .btnSaibaMais a{
-                    color: #000000;
+                    color: #ffffff;
                 }
-                .segunda{
+    .segunda{
                     overflow: hidden;
                     background: url(imgs/36580-Ford-GT40-Le-Mans-Race-Car.jpeg);
                     background-size: cover;
@@ -123,18 +124,20 @@
                     align-items: center;
                     background-color: rgba(0, 0, 0, 0.8);
                     color: #ffffff;
+                    
                 }
                 .faixa h3{
-                    font-family:font-family: 'Racing Sans One', cursive;
+                    font-family: Arial, Helvetica, sans-serif;
                     font-size: 4.0rem;
                     color: #ffffff;
+
                 }
                 .segunda p{
                   font-family: Arial, Helvetica, sans-serif;
-                  color:#4b4646;
+                  color:#000000;
                   font-size: 2.4rem;
                   width: 800px;
-                  text-align: center;
+                  text-align: justify;
                 }
                 .textopag2{
                   position: absolute;
@@ -147,12 +150,43 @@
                     width: 900px;
                     font-size: 4.5rem;
                     font-family: Arial, Helvetica, sans-serif;
-                    text-align: center;
+                    text-align: justify;
                 }
-        footer{
+                .transition2p3{
+                  position: absolute;
+                  top: 1945px;
+                  height: 30%;
+                  width: 100vw;
+                  background: linear-gradient( rgb(0, 0, 0, 0.2), #000000);
+                }
+      .terceira{
+        overflow: hidden;
+                    background: url(imgs/1389702-Ford-Ford-GT40-1080P.jpg);
+                    background-size: cover;
+                    display: flex;
+                    height: 150vh;
+                    width: 100vw;
+                    border-bottom: 1px solid #000000;
+                    margin: 0;
+                    padding: 0;
+                    align-items: end;
+                    justify-content: center;
+                    flex-direction: column;
+                    
+      } 
+            .descricao{
+              color: #ff0000;
+              background:rgba(0, 0, 0, 0.5);
+              width: 50vw;
+              height: 150vh;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+            }
+      footer{
             height: 150px;
             width: 100vw;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 1);
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -160,13 +194,16 @@
             gap: 100px;
             line-height: 180%;
 
-        }
-        .linksrodape a{
+      }
+              .linksrodape a{
             color: #ffffff;
             font-size: 1.2rem;
-        }
-
-        .linksrodape b{
+              }
+              .linksrodape b{
             font-size: 1.5rem;
-        }
+                }
+              .linksrodape a:hover{
+              color: #1000f7;  
+              }
+        
     
